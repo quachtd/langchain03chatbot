@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:BookingOrderConfirmation xmlns:ns0="http://sap.com/xi/XI/Demo/Agency">
+   <AgencyID>00000110</AgencyID>
+   <OrderNumber>00000023</OrderNumber>
+   <BookingStatus>B</BookingStatus>
+   <BookingID>
+      <AirlineID>LH</AirlineID>
+      <BookingNumber>00004711</BookingNumber>
+   </BookingID>
+</ns0:BookingOrderConfirmation>
