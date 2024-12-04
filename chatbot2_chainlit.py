@@ -58,16 +58,3 @@ async def query(msg: cl.Message):
             await final_answer.stream_token(chunk.content)
 
     await final_answer.send()
-    
-
-"""
-def query(text: str, config):
-    input_messages = [HumanMessage(text)]
-    output = graph.invoke({"messages": input_messages}, config)
-    return output
-
-output = query("Hi! I'm Bob.", config)
-output["messages"][-1].pretty_print()
-output = query("What's my name?", config)
-output["messages"][-1].pretty_print()
-"""

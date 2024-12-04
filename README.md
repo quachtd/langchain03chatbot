@@ -7,6 +7,7 @@ A chatbot with:
 
 ### Install
 python3 -m vevn .venv\
+source .venv/bin/activate\
 pip install -r requirements.txt
 
 #### OpenAI Key
