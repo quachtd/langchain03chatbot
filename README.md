@@ -6,7 +6,7 @@ A chatbot with:
 - GUI with Chainlit
 
 ### Install
-python3 -m vevn .venv
+python3 -m vevn .venv\
 pip install -r requirements.txt
 
 #### OpenAI Key
